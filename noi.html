@@ -1,0 +1,212 @@
+<script  id="ch0103/01">
+a = +prompt('a:')
+b = +prompt('b:')
+
+c = a + b
+
+console.log(c)
+
+</script>
+<script  id="ch0103/02">
+a = +prompt('a:')
+b = +prompt('b:')
+c = +prompt('c:')
+
+d = (a + b) * c
+
+console.log(d)
+</script>
+<script  id="ch0103/03">
+a = +prompt('a:')
+b = +prompt('b:')
+c = +prompt('c:')
+
+d = (a + b) % c
+e = ((a + b) - d) / c
+
+console.log(e)
+</script>
+<script  id="ch0103/04">
+a = +prompt('a:')
+b = +prompt('b:')
+c = +prompt('c:')
+
+d = (a + b) % c
+e = ((a + b) - d) / c
+
+console.log(e)
+console.log(d)
+
+</script>
+<script  id="ch0103/05">
+a = +prompt('a:')
+b = +prompt('b:')
+
+c = a / b
+
+console.log(c.toFixed(9))
+</script>
+<script  id="ch0103/06">
+a = +prompt('a:')
+b = +prompt('b:')
+
+c = a / b
+d = c.toFixed(3) * 100
+
+console.log(d.toFixed(3) + '%')
+</script>
+<script  id="ch0103/07">
+a = +prompt('a:')
+b = +prompt('b:')
+c = +prompt('c:')
+d = +prompt('d:')
+x = +prompt('x:')
+
+e = a * x ** 3 +  b * x **2 + c * x + d
+
+console.log(e.toFixed(7))
+</script>
+<script  id="ch0103/08">
+a = +prompt('a:')
+
+b = 5 * (a - 32) / 9
+
+console.log(b.toFixed(5))
+</script>
+<script  id="ch0103/09">
+a = +prompt('a:') 
+p = 3.14159
+
+b = 2 * p * a
+c = 2 * a
+d = p * a * a
+
+console.log(c.toFixed(4))
+console.log(b.toFixed(4))
+console.log(d.toFixed(4))
+</script>
+<script  id="ch0103/10">
+a = +prompt('a:')
+b = +prompt('b:')
+
+c = a * b / (a + b)
+
+console.log(c.toFixed(2))
+</script>
+<script  id="ch0103/11">
+a = +prompt('a:')
+b = +prompt('b:') 
+
+c = a % b
+
+console.log(c)
+</script>
+<script  id="ch0103/12">
+a = +prompt('a:')
+
+p = 3.14
+
+v = 4 / 3 * p * a ** 3
+
+console.log(v.toFixed(2))
+</script>
+<script  id="ch0103/13">
+a = +prompt('a:')
+
+b = a % 10
+c = a % 100
+uiww = (c - b) / 10
+bdww = (a - c) / 100
+geww = b
+
+console.log(geww * 100 + uiww * 10 + bdww)
+</script>
+<script  id="ch0103/14">
+h = +prompt('a:')
+r = +prompt('b:')
+
+p = 3.14159
+v = h * p * r ** 2 / 1000
+n0 = 20 % v
+ 
+n0 == 0 ? n = (20 - n0) / v : n = (20 - n0) / v + 1
+
+console.log(n)
+</script>
+<script  id="ch0103/15">
+a = +prompt('a:')
+b = +prompt('b:')
+c = +prompt('c:')
+
+d = b * c % 1
+
+d == 0 ? eaten = b * c : eaten = b * c - d + 1
+ 
+left = a - eaten
+
+console.log(left)
+</script>
+<script  id="ch0103/16">
+x1 = +prompt('x1:')
+y1 = +prompt('y1:')
+x2 = +prompt('x2:')
+y2 = +prompt('y2:')
+
+x = x2 - x1
+y = y2 - y1
+
+length = Math.sqrt(x ** 2 + y ** 2)
+
+console.log(length.toFixed(3))
+</script>
+<script  id="ch0103/17">
+x1 = +prompt('x1:')
+y1 = +prompt('y1:')
+x2 = +prompt('x2:')
+y2 = +prompt('y2:')
+x3 = +prompt('x3:')
+y3 = +prompt('y3:')
+
+xa = x2 - x1
+ya = y2 - y1
+xb = x2 - x3
+yb = y2 - y3
+xc = x1 - x3
+yc = y1 - y3
+
+l1 = Math.sqrt(xa ** 2 + ya ** 2)
+l2 = Math.sqrt(xb ** 2 + yb ** 2)
+l3 = Math.sqrt(xc ** 2 + yc ** 2)
+
+p = (l1 + l2 + l3) / 2
+
+s = Math.sqrt(p * (p - l1) * (p - l2) * (p - l3))
+
+console.log(s.toFixed(2))
+
+</script>
+<script  id="ch0103/18">
+a = +prompt('a:')
+b = +prompt('b:')
+c = +prompt('c:')
+
+d = b - a
+n = a + d * (c - 1)
+
+console.log(n)
+</script>
+<script  id="ch0103/19">
+a = +prompt('a:')
+b = +prompt('b:')
+
+c = a * b
+
+console.log(c)
+</script>
+<script id="ch0103/20">
+n = +prompt('n:')
+
+a = 2 ** n
+
+console.log(a)
+</script>
